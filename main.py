@@ -1,6 +1,6 @@
 import sys
 import json
-
+from datamining import DataMining
 
 def main(filename, min_sup, min_conf):
     dataMining = DataMining(filename, min_sup, min_conf)
@@ -13,11 +13,11 @@ if __name__ == "__main__":
 
     try:
         filename = sys.argv[1]
-        min_sup = sys.argv[2]
-        min_conf = sys.argv[3]
+        min_sup = float(sys.argv[2])
+        min_conf = float(sys.argv[3])
 
     except ValueError:
-        print("Error: 'r' and 'k' must be integers.")
+        print("Error! correct usage: python3 main.py INTEGRATED-DATASET.csv <min_sup> <min_conf>")
         sys.exit(1)
 
     main(filename, min_sup, min_conf)
