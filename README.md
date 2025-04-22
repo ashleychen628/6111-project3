@@ -64,3 +64,54 @@ https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-
 * Final Output Format
   * The resulting INTEGRATED-DATASET.csv is a four-column file:
   ``` Leading Cause, Sex, Race Ethnicity, Deaths ```
+
+#### What makes my choice of INTEGRATED-DATASET file compelling
+1. Rich and High-Quality Categorical Information
+   
+   This dataset offers clean, well-structured categorical variables that are highly suitable for market-basket style mining:
+     * Leading Cause – the type of disease or condition that caused death.
+     * Sex – male or female.
+     * Race Ethnicity – multiple clearly defined demographic groups.
+     * Deaths – a numeric value that provides real-world frequency for weighting.
+       
+   These variables translate naturally into discrete items, enabling meaningful itemsets and interpretable association rules.
+   
+2. Meaningful Real-World Patterns
+
+   The dataset captures public health outcomes across demographic lines. This makes the frequent itemsets and association rules directly relevant to real-world concerns like:
+   * Which diseases disproportionately affect certain gender or racial groups.
+   * Which demographics are more frequently associated with specific causes of death.
+     
+   This goes beyond artificial data and enables data-driven reasoning about equity, disparities, and public health trends in NYC.
+
+3. Support for Weighted Frequency (Deaths)
+
+   Unlike typical categorical datasets, this one includes a Deaths column which allows: 1) Death-weighted support calculations, improving accuracy and relevance. 2) Avoiding artificial row duplication — each transaction can be weighted by its real-world impact. This made it possible to calculate support and confidence values that reflect actual human loss, not just row counts.
+
+## **Internal Design of the Project**
+This project implements the classic Apriori algorithm to discover frequent itemsets and generate high-confidence association rules from a preprocessed NYC Open Data dataset (INTEGRATED-DATASET.csv). The implementation includes custom adaptations for categorical encoding and optional support weighting.
+
+Key Components:
+1. Preprocessing: read_transactions_from_csv()
+* Each row in the dataset is converted into a set of key=value strings, e.g.: {"Leading_Cause=Diabetes Mellitus", "Sex=F", "Race_Ethnicity=Hispanic"}
+* This avoids ambiguity between values (e.g., "F" for sex vs. something else), and makes the generated rules interpretable and distinct.
+* The result is a list of transaction sets stored in self.transactions.
+
+2. Frequent Itemset Mining: apriori() (a-priori algorithm described in Section 2.1 of the Agrawal and Srikant paper in VLDB 1994)
+* The algorithm starts by counting support for all 1-itemsets (L1).
+* It iteratively generates candidate k-itemsets (Ck) by self-joining frequent (k-1)-itemsets and pruning those whose (k−1)-subsets are not all frequent.
+* Support counting is handled using count_support(), which checks for subset inclusion using set operations.
+* Itemsets are only retained if they meet the global support threshold (derived from min_sup).
+
+3. Association Rule Generation: generate_rules()
+* For every frequent itemset of size ≥ 2, the code generates all possible rules of the form A => B, where:
+  * LHS is a non-empty subset of the itemset.
+  * RHS is exactly one item (as required by spec).
+  * A and B are disjoint: RHS = itemset - LHS.
+* confidence is calculated using confidence = support_LHS_RHS_count / support_LHS_count (number of LHS U RHS / number of LHS) 
+* A rule is included if it meets the min_conf threshold.
+
+4. Output Formatting: print_output()
+* Results are written to output.txt in two parts:
+  * A list of frequent itemsets with their support percentages.
+  * A list of rules sorted by descending confidence, formatted with both support and confidence values.
