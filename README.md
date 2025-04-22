@@ -46,7 +46,7 @@ https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-
       [Sex=F, Cause=Diabetes, Year=2018]
    ```
      This would reduce support for each pattern and obscure meaningful trends. Apriori works best when items co-occur across many transactions, however, I think year-based splitting weakens that signal.
-  * Column "Age Adjusted Death Rate" is ignored, since it's a continuous variable, not a categorical item — and Apriori is fundamentally designed for discrete, categorical data. Including it would require discretization (e.g., low/medium/high), which introduces subjective bins and complexity. As an alternative, the Deaths column already provides a reliable, interpretable weight to express frequency — and was used to weight the support counts. In addition, adding death rate would be redundant and noisy, and it could distort the support-based confidence calculation.
+  * Column "Age Adjusted Death Rate" is ignored, since it's a continuous variable, not a categorical item — and Apriori is fundamentally designed for discrete, categorical data. Including it would require discretization (e.g., low/medium/high), which introduces subjective bins and complexity, because these data are too scattered and are not within some specific range (I found it hard to do a reasonable discretization). As an alternative, the Deaths column already provides a reliable, interpretable weight to express frequency — and was used to weight the support counts. In addition, adding death rate would be redundant and noisy, and it could distort the support-based confidence calculation.
 
 * Row Filtering
   * Only rows with non-empty values for all three categorical columns were retained.
