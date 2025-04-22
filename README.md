@@ -37,7 +37,7 @@ https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-
 
 #### 2. Dataset Preprocessing Steps:
 * Column Selection
-  * The columns "Leading Cause", "Sex", "Race Ethnicity", and "Deaths" were extracted from the original dataset.
+  * The columns "Leading Cause", "Sex", "Race Ethnicity", and "Deaths" were extracted from the original dataset. (I also deleted the first row of column names and the title for convenience)
   * Other fields (Year, Age Adjusted Death Rate) were ignored.
   * Column "Year" is ignored because including "Year" would have fragmented the dataset, turning otherwise frequent patterns into smaller, year-specific subsets.
     For example, the pattern [Sex=F, Cause=Diabetes] might occur consistently across years, but including the year would spread this across multiple itemsets like:
