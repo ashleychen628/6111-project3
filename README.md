@@ -50,6 +50,7 @@ https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-
 
 * Row Filtering
   * Only rows with non-empty values for all three categorical columns were retained.
+  * In the original data sets, the codes inside the parentheses behind each leading cause (e.g. V01-X39, X43, X45-X59, Y85-Y86 refer to ICD-10 codes) are International Classification of Diseases, used globally to categorize causes of death. I deleted contents inside this parentheses to reduce complexity. Otherwise, they're making the item inside transactions too long and hard to read. I believe this deletion won't influence the apriori calculation result because they're unique to each leading cause, the remaining leading causes keep the same.
 * Transformation into Transactions
   * Each row was transformed into a set of key=value items:
   * Example:
