@@ -10,7 +10,8 @@ class DataMining:
 
         # get the transactions in form of list of transactions
         self.transactions = self.read_transactions_from_csv()
-        self.total_transactions = len(self.transactions)
+        # self.total_transactions = len(self.transactions)
+        self.total_transactions = sum(self.transaction_weights)
         self.support_threshold = float(self.min_sup * self.total_transactions)
 
     
@@ -18,9 +19,10 @@ class DataMining:
         """ Start the Data Mining process. """
         # count largest 1-itemsets to get L1
         item_counts = defaultdict(int)
-        for transaction in self.transactions:
+        for transaction, weight in zip(self.transactions, self.transaction_weights):
             for item in transaction:
-                item_counts[frozenset([item])] += 1
+                item_counts[frozenset([item])] += weight
+
         
         # Compute L1 by filtering with min_sup threshold
         L1 = []
@@ -38,6 +40,7 @@ class DataMining:
     def read_transactions_from_csv(self):
         """ Read dataset in filename into a list of sets. """
         transactions = []
+        weights = []
         with open(self.filename, newline='', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
             for row in reader:
@@ -46,6 +49,7 @@ class DataMining:
                 leading_cause = row[0].strip()
                 sex = row[1].strip()
                 race = row[2].strip()
+                deaths = int(row[3].strip()) if row[3].strip().isdigit() else 1 
                 if leading_cause and sex and race:
                     # adding to a set
                     basket = {
@@ -54,15 +58,19 @@ class DataMining:
                         f"Race_Ethnicity={race}"
                     }
                     transactions.append(basket)
+                    weights.append(deaths)
+
+        self.transaction_weights = weights
         return transactions
     
     def count_support(self, itemsets):
         """ Count support and filter the list using min_sup. """
         candidate_counts = defaultdict(int)
-        for trans in self.transactions:
+        for trans, weight in zip(self.transactions, self.transaction_weights):
             for item in itemsets:
                 if item.issubset(trans):
-                    candidate_counts[item] += 1
+                    candidate_counts[item] += weight
+
 
         return candidate_counts
 

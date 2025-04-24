@@ -1,0 +1,476 @@
+==Frequent itemsets (min_sup=1%)
+[Sex=F], 50.6399%
+[Sex=M], 49.3601%
+[Race_Ethnicity=Not Stated/Unknown], 18.2815%
+[Race_Ethnicity=Other Race/ Ethnicity], 17.0018%
+[Race_Ethnicity=Black Non-Hispanic], 16.2706%
+[Race_Ethnicity=Asian and Pacific Islander], 16.1792%
+[Race_Ethnicity=Hispanic], 16.1792%
+[Race_Ethnicity=White Non-Hispanic], 16.0878%
+[Year=2011], 12.8885%
+[Year=2007], 12.8885%
+[Year=2010], 12.6143%
+[Year=2014], 12.4314%
+[Year=2008], 12.4314%
+[Year=2009], 12.3400%
+[Year=2012], 12.2486%
+[Year=2013], 12.1572%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F], 9.6892%
+[Leading_Cause=All Other Causes], 8.7751%
+[Leading_Cause=Diseases of Heart], 8.7751%
+[Leading_Cause=Influenza (Flu) and Pneumonia], 8.7751%
+[Leading_Cause=Malignant Neoplasms (Cancer)], 8.7751%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M], 8.5923%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F], 8.5923%
+[Leading_Cause=Diabetes Mellitus], 8.4095%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M], 8.4095%
+[Leading_Cause=Cerebrovascular Disease (Stroke)], 8.2267%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M], 8.1353%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F], 8.1353%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M], 8.1353%
+[Race_Ethnicity=Hispanic,Sex=F], 8.1353%
+[Leading_Cause=Chronic Lower Respiratory Diseases], 8.0439%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F], 8.0439%
+[Race_Ethnicity=Hispanic,Sex=M], 8.0439%
+[Race_Ethnicity=White Non-Hispanic,Sex=F], 8.0439%
+[Race_Ethnicity=White Non-Hispanic,Sex=M], 8.0439%
+[Leading_Cause=Accidents Except Drug Posioning], 7.3126%
+[Leading_Cause=Essential Hypertension and Renal Diseases], 6.8556%
+[Sex=F,Year=2007], 6.6728%
+[Sex=F,Year=2011], 6.5814%
+[Sex=F,Year=2014], 6.3985%
+[Sex=F,Year=2009], 6.3071%
+[Sex=F,Year=2010], 6.3071%
+[Sex=M,Year=2008], 6.3071%
+[Sex=M,Year=2010], 6.3071%
+[Sex=M,Year=2011], 6.3071%
+[Sex=F,Year=2012], 6.2157%
+[Sex=M,Year=2007], 6.2157%
+[Sex=F,Year=2008], 6.1243%
+[Sex=M,Year=2013], 6.1243%
+[Sex=F,Year=2013], 6.0329%
+[Sex=M,Year=2009], 6.0329%
+[Sex=M,Year=2012], 6.0329%
+[Sex=M,Year=2014], 6.0329%
+[Leading_Cause=All Other Causes,Sex=F], 4.3876%
+[Leading_Cause=All Other Causes,Sex=M], 4.3876%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Sex=F], 4.3876%
+[Leading_Cause=Diseases of Heart,Sex=F], 4.3876%
+[Leading_Cause=Diseases of Heart,Sex=M], 4.3876%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=F], 4.3876%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=M], 4.3876%
+[Leading_Cause=Malignant Neoplasms (Cancer),Sex=F], 4.3876%
+[Leading_Cause=Malignant Neoplasms (Cancer),Sex=M], 4.3876%
+[Leading_Cause=Diabetes Mellitus,Sex=F], 4.2962%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Sex=F], 4.2048%
+[Leading_Cause=Accidents Except Drug Posioning,Sex=M], 4.1133%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Sex=F], 4.1133%
+[Leading_Cause=Diabetes Mellitus,Sex=M], 4.1133%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV)], 3.9305%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Sex=M], 3.9305%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Sex=M], 3.8391%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use], 3.5649%
+[Leading_Cause=Intentional Self-Harm (Suicide)], 3.4735%
+[Leading_Cause=Accidents Except Drug Posioning,Sex=F], 3.1993%
+[Leading_Cause=Alzheimer's Disease], 2.9250%
+[Leading_Cause=Alzheimer's Disease,Sex=F], 2.8336%
+[Race_Ethnicity=Not Stated/Unknown,Year=2011], 2.8336%
+[Leading_Cause=Chronic Liver Disease and Cirrhosis], 2.6508%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Sex=M], 2.6508%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use,Sex=M], 2.4680%
+[Race_Ethnicity=Not Stated/Unknown,Year=2007], 2.4680%
+[Race_Ethnicity=Not Stated/Unknown,Year=2010], 2.4680%
+[Leading_Cause=Certain Conditions originating in the Perinatal Period], 2.3766%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV),Sex=M], 2.3766%
+[Leading_Cause=Intentional Self-Harm (Suicide),Sex=M], 2.3766%
+[Race_Ethnicity=Not Stated/Unknown,Year=2014], 2.3766%
+[Race_Ethnicity=Black Non-Hispanic,Year=2007], 2.1938%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2007], 2.1938%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2008], 2.1938%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2009], 2.1938%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2012], 2.1938%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2008], 2.1024%
+[Race_Ethnicity=Hispanic,Year=2009], 2.1024%
+[Race_Ethnicity=Not Stated/Unknown,Year=2008], 2.1024%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2010], 2.1024%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2013], 2.1024%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2007], 2.0110%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2009], 2.0110%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2010], 2.0110%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2011], 2.0110%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2012], 2.0110%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2013], 2.0110%
+[Race_Ethnicity=Asian and Pacific Islander,Year=2014], 2.0110%
+[Race_Ethnicity=Black Non-Hispanic,Year=2008], 2.0110%
+[Race_Ethnicity=Black Non-Hispanic,Year=2009], 2.0110%
+[Race_Ethnicity=Black Non-Hispanic,Year=2010], 2.0110%
+[Race_Ethnicity=Black Non-Hispanic,Year=2011], 2.0110%
+[Race_Ethnicity=Black Non-Hispanic,Year=2012], 2.0110%
+[Race_Ethnicity=Black Non-Hispanic,Year=2013], 2.0110%
+[Race_Ethnicity=Black Non-Hispanic,Year=2014], 2.0110%
+[Race_Ethnicity=Hispanic,Year=2007], 2.0110%
+[Race_Ethnicity=Hispanic,Year=2008], 2.0110%
+[Race_Ethnicity=Hispanic,Year=2010], 2.0110%
+[Race_Ethnicity=Hispanic,Year=2011], 2.0110%
+[Race_Ethnicity=Hispanic,Year=2012], 2.0110%
+[Race_Ethnicity=Hispanic,Year=2013], 2.0110%
+[Race_Ethnicity=Hispanic,Year=2014], 2.0110%
+[Race_Ethnicity=Not Stated/Unknown,Year=2009], 2.0110%
+[Race_Ethnicity=Not Stated/Unknown,Year=2012], 2.0110%
+[Race_Ethnicity=Not Stated/Unknown,Year=2013], 2.0110%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2011], 2.0110%
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2014], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2007], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2008], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2009], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2010], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2011], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2012], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2013], 2.0110%
+[Race_Ethnicity=White Non-Hispanic,Year=2014], 2.0110%
+[Leading_Cause=Chronic Liver Disease and Cirrhosis,Sex=M], 1.9196%
+[Leading_Cause=Assault (Homicide)], 1.8282%
+[Leading_Cause=Nephritis, Nephrotic Syndrome and Nephrisis], 1.5539%
+[Leading_Cause=Assault (Homicide),Sex=M], 1.5539%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV),Sex=F], 1.5539%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2011], 1.5539%
+[Leading_Cause=Accidents Except Drug Posioning,Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=Accidents Except Drug Posioning,Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Hispanic], 1.4625%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Not Stated/Unknown], 1.4625%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Other Race/ Ethnicity], 1.4625%
+[Leading_Cause=All Other Causes,Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Race_Ethnicity=Hispanic], 1.4625%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Race_Ethnicity=Not Stated/Unknown], 1.4625%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Diabetes Mellitus,Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=Diabetes Mellitus,Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Diabetes Mellitus,Race_Ethnicity=Hispanic], 1.4625%
+[Leading_Cause=Diabetes Mellitus,Race_Ethnicity=Other Race/ Ethnicity], 1.4625%
+[Leading_Cause=Diabetes Mellitus,Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Hispanic], 1.4625%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Not Stated/Unknown], 1.4625%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Other Race/ Ethnicity], 1.4625%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV),Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=Hispanic], 1.4625%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=Not Stated/Unknown], 1.4625%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=Other Race/ Ethnicity], 1.4625%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Asian and Pacific Islander], 1.4625%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Black Non-Hispanic], 1.4625%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Hispanic], 1.4625%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Not Stated/Unknown], 1.4625%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Other Race/ Ethnicity], 1.4625%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=White Non-Hispanic], 1.4625%
+[Leading_Cause=Accidents Except Drug Posioning,Race_Ethnicity=Hispanic], 1.3711%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Race_Ethnicity=Other Race/ Ethnicity], 1.3711%
+[Leading_Cause=Certain Conditions originating in the Perinatal Period,Race_Ethnicity=Not Stated/Unknown], 1.3711%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Race_Ethnicity=Hispanic], 1.3711%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Race_Ethnicity=Asian and Pacific Islander], 1.3711%
+[Leading_Cause=Intentional Self-Harm (Suicide),Race_Ethnicity=Asian and Pacific Islander], 1.3711%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2007], 1.3711%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2014], 1.3711%
+[Leading_Cause=Accidents Except Drug Posioning,Race_Ethnicity=Other Race/ Ethnicity], 1.2797%
+[Leading_Cause=Nephritis, Nephrotic Syndrome and Nephrisis,Sex=F], 1.2797%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2010], 1.2797%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2011], 1.2797%
+[Leading_Cause=Septicemia], 1.1883%
+[Leading_Cause=Certain Conditions originating in the Perinatal Period,Sex=F], 1.1883%
+[Leading_Cause=Certain Conditions originating in the Perinatal Period,Sex=M], 1.1883%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV),Race_Ethnicity=Hispanic], 1.1883%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2010], 1.1883%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2007], 1.1883%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2009], 1.1883%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2012], 1.1883%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2008], 1.1883%
+[Leading_Cause=Accidents Except Drug Posioning,Year=2007], 1.0969%
+[Leading_Cause=All Other Causes,Year=2007], 1.0969%
+[Leading_Cause=All Other Causes,Year=2008], 1.0969%
+[Leading_Cause=All Other Causes,Year=2009], 1.0969%
+[Leading_Cause=All Other Causes,Year=2010], 1.0969%
+[Leading_Cause=All Other Causes,Year=2011], 1.0969%
+[Leading_Cause=All Other Causes,Year=2012], 1.0969%
+[Leading_Cause=All Other Causes,Year=2013], 1.0969%
+[Leading_Cause=All Other Causes,Year=2014], 1.0969%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Year=2010], 1.0969%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Year=2012], 1.0969%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Year=2014], 1.0969%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Year=2011], 1.0969%
+[Leading_Cause=Diabetes Mellitus,Race_Ethnicity=Not Stated/Unknown], 1.0969%
+[Leading_Cause=Diabetes Mellitus,Year=2007], 1.0969%
+[Leading_Cause=Diabetes Mellitus,Year=2010], 1.0969%
+[Leading_Cause=Diabetes Mellitus,Year=2011], 1.0969%
+[Leading_Cause=Diabetes Mellitus,Year=2013], 1.0969%
+[Leading_Cause=Diabetes Mellitus,Year=2014], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2007], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2008], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2009], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2010], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2011], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2012], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2013], 1.0969%
+[Leading_Cause=Diseases of Heart,Year=2014], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2007], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2008], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2009], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2010], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2011], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2012], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2013], 1.0969%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Year=2014], 1.0969%
+[Leading_Cause=Intentional Self-Harm (Suicide),Sex=F], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2007], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2008], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2009], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2010], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2011], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2012], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2013], 1.0969%
+[Leading_Cause=Malignant Neoplasms (Cancer),Year=2014], 1.0969%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use,Sex=F], 1.0969%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2008], 1.0969%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2007], 1.0969%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2007], 1.0969%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2009], 1.0969%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2008], 1.0969%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2007], 1.0969%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2010], 1.0969%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2013], 1.0969%
+[Leading_Cause=Accidents Except Drug Posioning,Year=2008], 1.0055%
+[Leading_Cause=Accidents Except Drug Posioning,Year=2010], 1.0055%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Race_Ethnicity=Not Stated/Unknown], 1.0055%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Year=2007], 1.0055%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Year=2008], 1.0055%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Year=2009], 1.0055%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Year=2013], 1.0055%
+[Leading_Cause=Chronic Liver Disease and Cirrhosis,Race_Ethnicity=Hispanic], 1.0055%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Year=2007], 1.0055%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Year=2008], 1.0055%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Year=2009], 1.0055%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Year=2010], 1.0055%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Year=2013], 1.0055%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Year=2014], 1.0055%
+[Leading_Cause=Diabetes Mellitus,Year=2008], 1.0055%
+[Leading_Cause=Diabetes Mellitus,Year=2012], 1.0055%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Year=2013], 1.0055%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV),Race_Ethnicity=Not Stated/Unknown], 1.0055%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use,Race_Ethnicity=Hispanic], 1.0055%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use,Race_Ethnicity=White Non-Hispanic], 1.0055%
+[Leading_Cause=Septicemia,Sex=F], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2007], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2008], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2009], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2010], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2011], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2012], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2013], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F,Year=2014], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2007], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2009], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2010], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2011], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2012], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2013], 1.0055%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M,Year=2014], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2008], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2009], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2010], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2011], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2012], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2013], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F,Year=2014], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2008], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2009], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2010], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2011], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2012], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2013], 1.0055%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M,Year=2014], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2007], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2008], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2010], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2011], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2012], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2013], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=F,Year=2014], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2007], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2008], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2009], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2010], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2011], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2012], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2013], 1.0055%
+[Race_Ethnicity=Hispanic,Sex=M,Year=2014], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2009], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2012], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F,Year=2013], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2008], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2009], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2012], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2013], 1.0055%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M,Year=2014], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2008], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2010], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2011], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2013], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F,Year=2014], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2007], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2009], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2011], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2012], 1.0055%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M,Year=2014], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2007], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2008], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2009], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2010], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2011], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2012], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2013], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=F,Year=2014], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2007], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2008], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2009], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2010], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2011], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2012], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2013], 1.0055%
+[Race_Ethnicity=White Non-Hispanic,Sex=M,Year=2014], 1.0055%
+==High-confidence association rules (min_conf=50%)
+[Leading_Cause=Alzheimer's Disease] => [Sex=F] (Conf: 96.9%, Supp: 2.8336%)
+[Leading_Cause=Assault (Homicide)] => [Sex=M] (Conf: 85.0%, Supp: 1.5539%)
+[Leading_Cause=Septicemia] => [Sex=F] (Conf: 84.6%, Supp: 1.0055%)
+[Leading_Cause=Nephritis, Nephrotic Syndrome and Nephrisis] => [Sex=F] (Conf: 82.4%, Supp: 1.2797%)
+[Leading_Cause=Chronic Liver Disease and Cirrhosis] => [Sex=M] (Conf: 72.4%, Supp: 1.9196%)
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use] => [Sex=M] (Conf: 69.2%, Supp: 2.4680%)
+[Leading_Cause=Intentional Self-Harm (Suicide)] => [Sex=M] (Conf: 68.4%, Supp: 2.3766%)
+[Leading_Cause=Essential Hypertension and Renal Diseases] => [Sex=F] (Conf: 61.3%, Supp: 4.2048%)
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV)] => [Sex=M] (Conf: 60.5%, Supp: 2.3766%)
+[Leading_Cause=Certain Conditions originating in the Perinatal Period] => [Race_Ethnicity=Not Stated/Unknown] (Conf: 57.7%, Supp: 1.3711%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2014] => [Sex=F] (Conf: 57.7%, Supp: 1.3711%)
+[Leading_Cause=Accidents Except Drug Posioning] => [Sex=M] (Conf: 56.2%, Supp: 4.1133%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2007] => [Sex=F] (Conf: 55.6%, Supp: 1.3711%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2011] => [Sex=F] (Conf: 54.8%, Supp: 1.5539%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2007] => [Sex=F] (Conf: 54.2%, Supp: 1.1883%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2009] => [Sex=F] (Conf: 54.2%, Supp: 1.1883%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2012] => [Sex=F] (Conf: 54.2%, Supp: 1.1883%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2008] => [Sex=M] (Conf: 54.2%, Supp: 1.1883%)
+[Leading_Cause=Cerebrovascular Disease (Stroke)] => [Sex=F] (Conf: 53.3%, Supp: 4.3876%)
+[Race_Ethnicity=Not Stated/Unknown] => [Sex=F] (Conf: 53.0%, Supp: 9.6892%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2008] => [Sex=M] (Conf: 52.2%, Supp: 1.0969%)
+[Race_Ethnicity=Hispanic,Year=2009] => [Sex=F] (Conf: 52.2%, Supp: 1.0969%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2008] => [Sex=F] (Conf: 52.2%, Supp: 1.0969%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2010] => [Sex=M] (Conf: 52.2%, Supp: 1.0969%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2013] => [Sex=M] (Conf: 52.2%, Supp: 1.0969%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2010] => [Sex=F] (Conf: 51.9%, Supp: 1.2797%)
+[Year=2007] => [Sex=F] (Conf: 51.8%, Supp: 6.6728%)
+[Year=2014] => [Sex=F] (Conf: 51.5%, Supp: 6.3985%)
+[Leading_Cause=Chronic Lower Respiratory Diseases] => [Sex=F] (Conf: 51.1%, Supp: 4.1133%)
+[Year=2009] => [Sex=F] (Conf: 51.1%, Supp: 6.3071%)
+[Leading_Cause=Diabetes Mellitus] => [Sex=F] (Conf: 51.1%, Supp: 4.2962%)
+[Year=2011] => [Sex=F] (Conf: 51.1%, Supp: 6.5814%)
+[Year=2012] => [Sex=F] (Conf: 50.7%, Supp: 6.2157%)
+[Year=2008] => [Sex=M] (Conf: 50.7%, Supp: 6.3071%)
+[Race_Ethnicity=Other Race/ Ethnicity] => [Sex=F] (Conf: 50.5%, Supp: 8.5923%)
+[Year=2013] => [Sex=M] (Conf: 50.4%, Supp: 6.1243%)
+[Race_Ethnicity=Asian and Pacific Islander] => [Sex=M] (Conf: 50.3%, Supp: 8.1353%)
+[Race_Ethnicity=Hispanic] => [Sex=F] (Conf: 50.3%, Supp: 8.1353%)
+[Leading_Cause=All Other Causes] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=All Other Causes] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Certain Conditions originating in the Perinatal Period] => [Sex=F] (Conf: 50.0%, Supp: 1.1883%)
+[Leading_Cause=Certain Conditions originating in the Perinatal Period] => [Sex=M] (Conf: 50.0%, Supp: 1.1883%)
+[Leading_Cause=Diseases of Heart] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Diseases of Heart] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Influenza (Flu) and Pneumonia] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Influenza (Flu) and Pneumonia] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Malignant Neoplasms (Cancer)] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Malignant Neoplasms (Cancer)] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Race_Ethnicity=Black Non-Hispanic] => [Sex=F] (Conf: 50.0%, Supp: 8.1353%)
+[Race_Ethnicity=Black Non-Hispanic] => [Sex=M] (Conf: 50.0%, Supp: 8.1353%)
+[Race_Ethnicity=White Non-Hispanic] => [Sex=F] (Conf: 50.0%, Supp: 8.0439%)
+[Race_Ethnicity=White Non-Hispanic] => [Sex=M] (Conf: 50.0%, Supp: 8.0439%)
+[Year=2010] => [Sex=F] (Conf: 50.0%, Supp: 6.3071%)
+[Year=2010] => [Sex=M] (Conf: 50.0%, Supp: 6.3071%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2007] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2009] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2010] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2011] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2012] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2013] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2014] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2007] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2009] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2010] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2011] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2012] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2013] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Asian and Pacific Islander,Year=2014] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2007] => [Sex=F] (Conf: 50.0%, Supp: 1.0969%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2008] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2009] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2010] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2011] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2012] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2013] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2014] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2007] => [Sex=M] (Conf: 50.0%, Supp: 1.0969%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2008] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2009] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2010] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2011] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2012] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2013] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Black Non-Hispanic,Year=2014] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2007] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2008] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2010] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2011] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2012] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2013] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2014] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2007] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2008] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2010] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2011] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2012] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2013] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Hispanic,Year=2014] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2009] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2012] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2013] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2009] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2012] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Not Stated/Unknown,Year=2013] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2011] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2014] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2011] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=Other Race/ Ethnicity,Year=2014] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2007] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2008] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2009] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2010] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2011] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2012] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2013] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2014] => [Sex=F] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2007] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2008] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2009] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2010] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2011] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2012] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2013] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
+[Race_Ethnicity=White Non-Hispanic,Year=2014] => [Sex=M] (Conf: 50.0%, Supp: 1.0055%)
