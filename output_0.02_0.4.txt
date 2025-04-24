@@ -1,0 +1,92 @@
+==Frequent itemsets (min_sup=2%)
+[Sex=F], 50.6399%
+[Sex=M], 49.3601%
+[Race_Ethnicity=Not Stated/Unknown], 18.2815%
+[Race_Ethnicity=Other Race/ Ethnicity], 17.0018%
+[Race_Ethnicity=Black Non-Hispanic], 16.2706%
+[Race_Ethnicity=Asian and Pacific Islander], 16.1792%
+[Race_Ethnicity=Hispanic], 16.1792%
+[Race_Ethnicity=White Non-Hispanic], 16.0878%
+[Race_Ethnicity=Not Stated/Unknown,Sex=F], 9.6892%
+[Leading_Cause=All Other Causes], 8.7751%
+[Leading_Cause=Diseases of Heart], 8.7751%
+[Leading_Cause=Influenza (Flu) and Pneumonia], 8.7751%
+[Leading_Cause=Malignant Neoplasms (Cancer)], 8.7751%
+[Race_Ethnicity=Not Stated/Unknown,Sex=M], 8.5923%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=F], 8.5923%
+[Leading_Cause=Diabetes Mellitus], 8.4095%
+[Race_Ethnicity=Other Race/ Ethnicity,Sex=M], 8.4095%
+[Leading_Cause=Cerebrovascular Disease (Stroke)], 8.2267%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M], 8.1353%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F], 8.1353%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M], 8.1353%
+[Race_Ethnicity=Hispanic,Sex=F], 8.1353%
+[Leading_Cause=Chronic Lower Respiratory Diseases], 8.0439%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F], 8.0439%
+[Race_Ethnicity=Hispanic,Sex=M], 8.0439%
+[Race_Ethnicity=White Non-Hispanic,Sex=F], 8.0439%
+[Race_Ethnicity=White Non-Hispanic,Sex=M], 8.0439%
+[Leading_Cause=Accidents Except Drug Posioning], 7.3126%
+[Leading_Cause=Essential Hypertension and Renal Diseases], 6.8556%
+[Leading_Cause=All Other Causes,Sex=F], 4.3876%
+[Leading_Cause=All Other Causes,Sex=M], 4.3876%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Sex=F], 4.3876%
+[Leading_Cause=Diseases of Heart,Sex=F], 4.3876%
+[Leading_Cause=Diseases of Heart,Sex=M], 4.3876%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=F], 4.3876%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=M], 4.3876%
+[Leading_Cause=Malignant Neoplasms (Cancer),Sex=F], 4.3876%
+[Leading_Cause=Malignant Neoplasms (Cancer),Sex=M], 4.3876%
+[Leading_Cause=Diabetes Mellitus,Sex=F], 4.2962%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Sex=F], 4.2048%
+[Leading_Cause=Accidents Except Drug Posioning,Sex=M], 4.1133%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Sex=F], 4.1133%
+[Leading_Cause=Diabetes Mellitus,Sex=M], 4.1133%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV)], 3.9305%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Sex=M], 3.9305%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Sex=M], 3.8391%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use], 3.5649%
+[Leading_Cause=Intentional Self-Harm (Suicide)], 3.4735%
+[Leading_Cause=Accidents Except Drug Posioning,Sex=F], 3.1993%
+[Leading_Cause=Alzheimer's Disease], 2.9250%
+[Leading_Cause=Alzheimer's Disease,Sex=F], 2.8336%
+[Leading_Cause=Chronic Liver Disease and Cirrhosis], 2.6508%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Sex=M], 2.6508%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use,Sex=M], 2.4680%
+[Leading_Cause=Certain Conditions originating in the Perinatal Period], 2.3766%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV),Sex=M], 2.3766%
+[Leading_Cause=Intentional Self-Harm (Suicide),Sex=M], 2.3766%
+==High-confidence association rules (min_conf=40%)
+[Leading_Cause=Alzheimer's Disease] => [Sex=F] (Conf: 96.9%, Supp: 2.8336%)
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use] => [Sex=M] (Conf: 69.2%, Supp: 2.4680%)
+[Leading_Cause=Intentional Self-Harm (Suicide)] => [Sex=M] (Conf: 68.4%, Supp: 2.3766%)
+[Leading_Cause=Essential Hypertension and Renal Diseases] => [Sex=F] (Conf: 61.3%, Supp: 4.2048%)
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV)] => [Sex=M] (Conf: 60.5%, Supp: 2.3766%)
+[Leading_Cause=Accidents Except Drug Posioning] => [Sex=M] (Conf: 56.2%, Supp: 4.1133%)
+[Leading_Cause=Cerebrovascular Disease (Stroke)] => [Sex=F] (Conf: 53.3%, Supp: 4.3876%)
+[Race_Ethnicity=Not Stated/Unknown] => [Sex=F] (Conf: 53.0%, Supp: 9.6892%)
+[Leading_Cause=Chronic Lower Respiratory Diseases] => [Sex=F] (Conf: 51.1%, Supp: 4.1133%)
+[Leading_Cause=Diabetes Mellitus] => [Sex=F] (Conf: 51.1%, Supp: 4.2962%)
+[Race_Ethnicity=Other Race/ Ethnicity] => [Sex=F] (Conf: 50.5%, Supp: 8.5923%)
+[Race_Ethnicity=Asian and Pacific Islander] => [Sex=M] (Conf: 50.3%, Supp: 8.1353%)
+[Race_Ethnicity=Hispanic] => [Sex=F] (Conf: 50.3%, Supp: 8.1353%)
+[Leading_Cause=All Other Causes] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=All Other Causes] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Diseases of Heart] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Diseases of Heart] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Influenza (Flu) and Pneumonia] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Influenza (Flu) and Pneumonia] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Malignant Neoplasms (Cancer)] => [Sex=F] (Conf: 50.0%, Supp: 4.3876%)
+[Leading_Cause=Malignant Neoplasms (Cancer)] => [Sex=M] (Conf: 50.0%, Supp: 4.3876%)
+[Race_Ethnicity=Black Non-Hispanic] => [Sex=F] (Conf: 50.0%, Supp: 8.1353%)
+[Race_Ethnicity=Black Non-Hispanic] => [Sex=M] (Conf: 50.0%, Supp: 8.1353%)
+[Race_Ethnicity=White Non-Hispanic] => [Sex=F] (Conf: 50.0%, Supp: 8.0439%)
+[Race_Ethnicity=White Non-Hispanic] => [Sex=M] (Conf: 50.0%, Supp: 8.0439%)
+[Race_Ethnicity=Asian and Pacific Islander] => [Sex=F] (Conf: 49.7%, Supp: 8.0439%)
+[Race_Ethnicity=Hispanic] => [Sex=M] (Conf: 49.7%, Supp: 8.0439%)
+[Race_Ethnicity=Other Race/ Ethnicity] => [Sex=M] (Conf: 49.5%, Supp: 8.4095%)
+[Leading_Cause=Diabetes Mellitus] => [Sex=M] (Conf: 48.9%, Supp: 4.1133%)
+[Leading_Cause=Chronic Lower Respiratory Diseases] => [Sex=M] (Conf: 48.9%, Supp: 3.9305%)
+[Race_Ethnicity=Not Stated/Unknown] => [Sex=M] (Conf: 47.0%, Supp: 8.5923%)
+[Leading_Cause=Cerebrovascular Disease (Stroke)] => [Sex=M] (Conf: 46.7%, Supp: 3.8391%)
+[Leading_Cause=Accidents Except Drug Posioning] => [Sex=F] (Conf: 43.8%, Supp: 3.1993%)

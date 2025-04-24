@@ -74,13 +74,11 @@ class DataMining:
         # print(all_frequent_itemsets)
         while L_k:
             C_k = []
-            L_k_sorted = sorted(L_k)
+            L_k_sorted = sorted([sorted(list(itemset)) for itemset in L_k])
             for i in range(len(L_k_sorted)):
                 for j in range(i + 1, len(L_k_sorted)):
                     l1 = list(L_k_sorted[i])
                     l2 = list(L_k_sorted[j])
-                    l1.sort()
-                    l2.sort()
                     # match first k-2 items
                     if l1[:k-2] == l2[:k-2]:  
                         # take union of the two sets
