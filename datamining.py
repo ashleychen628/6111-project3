@@ -75,7 +75,6 @@ class DataMining:
         while L_k:
             C_k = []
             L_k_sorted = sorted([sorted(list(itemset)) for itemset in L_k])
-            L_k_sorted = L_k
             for i in range(len(L_k_sorted)):
                 for j in range(i + 1, len(L_k_sorted)):
                     l1 = list(L_k_sorted[i])
