@@ -1,0 +1,111 @@
+==Frequent itemsets (min_sup=1%)
+[Sex=F], 51.0806%
+[Sex=M], 48.9194%
+[Race_Ethnicity=White Non-Hispanic], 48.5696%
+[Leading_Cause=Diseases of Heart], 34.7068%
+[Race_Ethnicity=Black Non-Hispanic], 26.1366%
+[Race_Ethnicity=White Non-Hispanic,Sex=F], 25.3705%
+[Leading_Cause=Malignant Neoplasms (Cancer)], 25.0195%
+[Race_Ethnicity=White Non-Hispanic,Sex=M], 23.1992%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=White Non-Hispanic], 19.1844%
+[Leading_Cause=Diseases of Heart,Sex=F], 18.5240%
+[Leading_Cause=All Other Causes], 18.3468%
+[Race_Ethnicity=Hispanic], 17.5948%
+[Leading_Cause=Diseases of Heart,Sex=M], 16.1828%
+[Race_Ethnicity=Black Non-Hispanic,Sex=F], 13.8337%
+[Leading_Cause=Malignant Neoplasms (Cancer),Sex=F], 12.6729%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=White Non-Hispanic], 12.3904%
+[Leading_Cause=Malignant Neoplasms (Cancer),Sex=M], 12.3466%
+[Race_Ethnicity=Black Non-Hispanic,Sex=M], 12.3029%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=White Non-Hispanic,Sex=F], 10.4228%
+[Leading_Cause=All Other Causes,Sex=M], 9.1867%
+[Leading_Cause=All Other Causes,Sex=F], 9.1601%
+[Race_Ethnicity=Hispanic,Sex=M], 9.1486%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=White Non-Hispanic,Sex=M], 8.7617%
+[Race_Ethnicity=Hispanic,Sex=F], 8.4462%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Black Non-Hispanic], 8.2849%
+[Leading_Cause=All Other Causes,Race_Ethnicity=White Non-Hispanic], 7.9377%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Black Non-Hispanic], 6.3241%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=White Non-Hispanic,Sex=F], 6.2651%
+[Race_Ethnicity=Asian and Pacific Islander], 6.1992%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=White Non-Hispanic,Sex=M], 6.1253%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Black Non-Hispanic], 5.0351%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Hispanic], 4.9544%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Black Non-Hispanic,Sex=F], 4.5480%
+[Leading_Cause=Influenza (Flu) and Pneumonia], 4.3953%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Hispanic], 4.1309%
+[Leading_Cause=All Other Causes,Race_Ethnicity=White Non-Hispanic,Sex=F], 4.0627%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Hispanic], 3.9806%
+[Leading_Cause=All Other Causes,Race_Ethnicity=White Non-Hispanic,Sex=M], 3.8750%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Black Non-Hispanic,Sex=M], 3.7369%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=M], 3.4257%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Black Non-Hispanic,Sex=F], 3.4166%
+[Leading_Cause=Diabetes Mellitus], 3.2460%
+[Leading_Cause=Chronic Lower Respiratory Diseases], 3.1105%
+[Leading_Cause=Cerebrovascular Disease (Stroke)], 3.0463%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Black Non-Hispanic,Sex=M], 2.9075%
+[Race_Ethnicity=Asian and Pacific Islander,Sex=F], 2.7735%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Black Non-Hispanic,Sex=F], 2.6293%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Hispanic,Sex=F], 2.5004%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Hispanic,Sex=M], 2.4540%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Black Non-Hispanic,Sex=M], 2.4058%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=F], 2.3016%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=White Non-Hispanic], 2.2597%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Hispanic,Sex=M], 2.1370%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=M], 2.0937%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Hispanic,Sex=M], 2.0916%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Hispanic,Sex=F], 2.0393%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Asian and Pacific Islander], 1.8646%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Hispanic,Sex=F], 1.8436%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Sex=F], 1.7848%
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Asian and Pacific Islander], 1.7663%
+[Leading_Cause=Accidents Except Drug Posioning], 1.7592%
+[Leading_Cause=Diabetes Mellitus,Sex=F], 1.7004%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Sex=F], 1.6992%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Race_Ethnicity=White Non-Hispanic], 1.6665%
+[Leading_Cause=Essential Hypertension and Renal Diseases], 1.6388%
+[Leading_Cause=Diabetes Mellitus,Sex=M], 1.5456%
+[Leading_Cause=Chronic Lower Respiratory Diseases,Sex=M], 1.4113%
+[Leading_Cause=Diabetes Mellitus,Race_Ethnicity=Black Non-Hispanic], 1.2798%
+[Leading_Cause=Human Immunodeficiency Virus Disease (HIV)], 1.2796%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Race_Ethnicity=White Non-Hispanic], 1.2622%
+[Leading_Cause=Cerebrovascular Disease (Stroke),Sex=M], 1.2615%
+[Leading_Cause=Accidents Except Drug Posioning,Sex=M], 1.2217%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=White Non-Hispanic,Sex=F], 1.1933%
+[Leading_Cause=All Other Causes,Race_Ethnicity=Asian and Pacific Islander], 1.0813%
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=White Non-Hispanic,Sex=M], 1.0665%
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Asian and Pacific Islander,Sex=M], 1.0573%
+[Leading_Cause=Essential Hypertension and Renal Diseases,Sex=F], 1.0159%
+[Leading_Cause=Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use], 1.0086%
+==High-confidence association rules (min_conf=50%)
+[Leading_Cause=Accidents Except Drug Posioning] => [Sex=M] (Conf: 69.4%, Supp: 1.2217%)
+[Leading_Cause=Essential Hypertension and Renal Diseases] => [Sex=F] (Conf: 62.0%, Supp: 1.0159%)
+[Leading_Cause=Cerebrovascular Disease (Stroke)] => [Sex=F] (Conf: 58.6%, Supp: 1.7848%)
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Asian and Pacific Islander] => [Sex=M] (Conf: 56.7%, Supp: 1.0573%)
+[Leading_Cause=Diseases of Heart,Sex=F] => [Race_Ethnicity=White Non-Hispanic] (Conf: 56.3%, Supp: 10.4228%)
+[Leading_Cause=Diseases of Heart] => [Race_Ethnicity=White Non-Hispanic] (Conf: 55.3%, Supp: 19.1844%)
+[Race_Ethnicity=Asian and Pacific Islander] => [Sex=M] (Conf: 55.3%, Supp: 3.4257%)
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Black Non-Hispanic] => [Sex=F] (Conf: 54.9%, Supp: 4.5480%)
+[Leading_Cause=Chronic Lower Respiratory Diseases] => [Sex=F] (Conf: 54.6%, Supp: 1.6992%)
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=White Non-Hispanic] => [Sex=F] (Conf: 54.3%, Supp: 10.4228%)
+[Leading_Cause=Diseases of Heart,Sex=M] => [Race_Ethnicity=White Non-Hispanic] (Conf: 54.1%, Supp: 8.7617%)
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Black Non-Hispanic] => [Sex=F] (Conf: 54.0%, Supp: 3.4166%)
+[Leading_Cause=All Other Causes,Race_Ethnicity=Hispanic] => [Sex=M] (Conf: 53.7%, Supp: 2.1370%)
+[Leading_Cause=Chronic Lower Respiratory Diseases] => [Race_Ethnicity=White Non-Hispanic] (Conf: 53.6%, Supp: 1.6665%)
+[Leading_Cause=Diseases of Heart] => [Sex=F] (Conf: 53.4%, Supp: 18.5240%)
+[Race_Ethnicity=Black Non-Hispanic] => [Sex=F] (Conf: 52.9%, Supp: 13.8337%)
+[Leading_Cause=Influenza (Flu) and Pneumonia,Race_Ethnicity=White Non-Hispanic] => [Sex=F] (Conf: 52.8%, Supp: 1.1933%)
+[Leading_Cause=Diabetes Mellitus] => [Sex=F] (Conf: 52.4%, Supp: 1.7004%)
+[Leading_Cause=Influenza (Flu) and Pneumonia] => [Sex=F] (Conf: 52.4%, Supp: 2.3016%)
+[Race_Ethnicity=White Non-Hispanic] => [Sex=F] (Conf: 52.2%, Supp: 25.3705%)
+[Leading_Cause=All Other Causes,Race_Ethnicity=Black Non-Hispanic] => [Sex=F] (Conf: 52.2%, Supp: 2.6293%)
+[Race_Ethnicity=Hispanic] => [Sex=M] (Conf: 52.0%, Supp: 9.1486%)
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=F] => [Race_Ethnicity=White Non-Hispanic] (Conf: 51.8%, Supp: 1.1933%)
+[Leading_Cause=Influenza (Flu) and Pneumonia] => [Race_Ethnicity=White Non-Hispanic] (Conf: 51.4%, Supp: 2.2597%)
+[Leading_Cause=All Other Causes,Race_Ethnicity=White Non-Hispanic] => [Sex=F] (Conf: 51.2%, Supp: 4.0627%)
+[Leading_Cause=Influenza (Flu) and Pneumonia,Sex=M] => [Race_Ethnicity=White Non-Hispanic] (Conf: 50.9%, Supp: 1.0665%)
+[Leading_Cause=Malignant Neoplasms (Cancer)] => [Sex=F] (Conf: 50.7%, Supp: 12.6729%)
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=Hispanic] => [Sex=M] (Conf: 50.6%, Supp: 2.0916%)
+[Leading_Cause=Malignant Neoplasms (Cancer),Race_Ethnicity=White Non-Hispanic] => [Sex=F] (Conf: 50.6%, Supp: 6.2651%)
+[Leading_Cause=Diseases of Heart,Race_Ethnicity=Hispanic] => [Sex=F] (Conf: 50.5%, Supp: 2.5004%)
+[Leading_Cause=All Other Causes] => [Sex=M] (Conf: 50.1%, Supp: 9.1867%)
