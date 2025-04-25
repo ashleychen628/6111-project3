@@ -46,6 +46,14 @@ https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-
       [Sex=F, Cause=Diabetes, Year=2018]
    ```
      This would reduce support for each pattern and obscure meaningful trends. Apriori works best when items co-occur across many transactions, however, I think year-based splitting weakens that signal.
+   I experimented with including the "Year" column in the dataset but found that it led to a larger number of interfering or uninformative rules. For example, in the year 2009, the combination [Race_Ethnicity=White Non-Hispanic, Year=2009] produced two rules:
+   ```
+   [Race_Ethnicity=White Non-Hispanic, Year=2009] => [Sex=F] (Conf: 50.0%)
+   [Race_Ethnicity=White Non-Hispanic, Year=2009] => [Sex=M] (Conf: 50.0%)
+   ```
+   Since the dataset only includes binary gender values (F and M and Unknown), this 50/50 split is deterministic and trivial for that combination — it doesn’t provide any new insight. Including "Year" simply causes these repetitive rules to be generated for every year, cluttering the output without revealing meaningful patterns. As a result, I chose to remove the "Year" column to focus the algorithm on more generalizable and interesting associations.
+  <img width="674" alt="Screen Shot 2025-04-24 at 19 39 43" src="https://github.com/user-attachments/assets/e2176ed7-69e4-4044-a88e-74d81daf3243" />
+
   * Column "Age Adjusted Death Rate" is ignored, since it's a continuous variable, not a categorical item — and Apriori is fundamentally designed for discrete, categorical data. Including it would require discretization (e.g., low/medium/high), which introduces subjective bins and complexity, because these data are too scattered and are not within some specific range (I found it hard to do a reasonable discretization). As an alternative, the Deaths column already provides a reliable, interpretable weight to express frequency — and was used to weight the support counts. In addition, adding death rate would be redundant and noisy, and it could distort the support-based confidence calculation.
 
 * Row Filtering
@@ -115,3 +123,28 @@ Key Components:
 * Results are written to output.txt in two parts:
   * A list of frequent itemsets with their support percentages.
   * A list of rules sorted by descending confidence, formatted with both support and confidence values.
+
+5. Weighting:
+* Instead of treating each row in the dataset as a single, equally weighted transaction, I used the "Deaths" column to weight each transaction by the number of deaths it represents.
+* Each row in the dataset (i.e., one combination of Leading Cause, Sex, and Race Ethnicity) is not just a category — it reflects a real-world frequency: how many people actually died under that condition.
+* I did not duplicate rows. Instead, I implemented a parallel list of transaction weights (self.transaction_weights), where each weight corresponds to the Deaths value of a row.
+* When counting itemset support (in both 1-itemset and k-itemset passes), I used:
+  ```
+  support[itemset] += weight
+  ```
+  rather than incrementing by 1.
+* Why?
+  * Reflect Real-World Impact:
+    The dataset includes actual mortality counts. A row with 300 deaths is far more significant than one with 3 deaths. Weighting the support ensures that more deadly patterns carry more influence in the results.
+  * Avoid Distorting Results:
+    Treating each row equally would give equal support to a rare but heavily deadly combination (e.g., a specific disease that only occurs once but causes many deaths) and a common but low-mortality one. This would underrepresent critical health risks.
+
+## **The command line specification of a compelling sample run**
+```
+python3 main.py INTEGRATED-DATASET.csv 0.01 0.5
+```
+where minimum support = 0.01
+confidence = 0.5
+* When min_sup = 0.01, total number of transactions is 1094, 1094*0.01 = 10.94. To be considered frequent, each itemset must appear at least 11 times. Given that the dataset includes only a few values for Sex and Race Ethnicity, but over 25 distinct leading causes of death, the data is naturally spread out. So reaching a support count of 11 already indicates a pattern that is noticeable and meaningful in the context of this dataset.
+* When min_conf = 0.5, it produces string, interpretable rules with fewer borderline/noisy cases. However, when I test out with min_conf = 0.4, it revealed several weaker but consistent trends (e.g., symmetrical demographic splits and low-support disease-demographic associations), which could be of interest in exploratory analyses or follow-up studies but not super compelling for our project.
+* These rules reflect real-world public health disparities and are backed by sufficient data volume, making them both statistically significant and socially relevant. This makes the chosen thresholds (support = 0.01, confidence = 0.5) a compelling setting for discovering high-impact and explainable patterns.
